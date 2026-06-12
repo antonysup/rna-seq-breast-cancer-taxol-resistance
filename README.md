@@ -46,6 +46,3 @@ Target Discovery
 - Functional Enrichment
 - Network Biology
 - Bioinformatics Data Interpretation
-- Functional Enrichment
-- Network Biology
-- Bioinformatics Data Interpretation
