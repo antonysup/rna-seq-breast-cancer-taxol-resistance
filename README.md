@@ -12,11 +12,15 @@ This project investigates transcriptomic alterations associated with paclitaxel 
 - Explore potential therapeutic targets
 
 ## Dataset
-Dataset: GSE113685
 Source: Gene Expression Omnibus (GEO)
+Dataset: GSE113685
+Samples taken: MCF-7 Paclitaxel-resistant: SRR32240819, SRR32240820, SRR32240821
+               MCF-7 Parental(Paclitaxel-sensitive): SRR32240825, SRR32240826, SRR32240827
 
 ## Workflow
 RNA-Seq Data
+↓
+FastQC
 ↓
 Kallisto Quantification
 ↓
@@ -35,7 +39,6 @@ Target Discovery
 ## Tools Used
 - R
 - Kallisto
-- DESeq2
 - clusterProfiler
 - Cytoscape
 - MCODE
